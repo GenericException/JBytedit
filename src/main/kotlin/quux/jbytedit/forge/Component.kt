@@ -1,6 +1,5 @@
 package quux.jbytedit.forge
 
-import javafx.embed.swing.SwingFXUtils
 import org.objectweb.asm.ClassReader
 import org.objectweb.asm.tree.AbstractInsnNode
 import org.objectweb.asm.tree.ClassNode

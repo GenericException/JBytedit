@@ -25,9 +25,9 @@ import java.awt.event.WindowEvent
 import java.util.jar.JarFile
 import javax.swing.*
 
-object JBytedit : JFrame("JBytedit ${JBytedit.version}") {
+object JBytedit : JFrame("JBytedit ${JBytedit.version()}") {
     const val version = "v0.3.0"
-
+	
     lateinit var treePane: JScrollPane
     lateinit var editorPane: JScrollPane
     lateinit var searchPane: JScrollPane
@@ -182,4 +182,8 @@ object JBytedit : JFrame("JBytedit ${JBytedit.version}") {
     fun refreshFrames() {
         frames = Analyzer(MyInterpreter()).analyze(openedClass!!.name, openedMethod!!)
     }
+	
+	@JvmStatic fun version(): String {
+		return version
+	}
 }
