@@ -1,5 +1,7 @@
 # JBytedit - Java bytecode editor
-JBytedit was a free, fully featured graphical Java Bytecode editor made by ([Matthew Dupraz](https://github.com/MattDupraz)). This is an archival copy of that project with minor changes to make it more accessible. The original git commits are retained.to a certain point.
+JBytedit was a free, fully featured graphical Java Bytecode editor made by ([Matthew Dupraz](https://github.com/MattDupraz)). This is an archival copy of that project with minor changes to make it more accessible. The original git commits are retained.to a certain point (0.3.0).
+
+![img](image.png)
 
 --------
 
